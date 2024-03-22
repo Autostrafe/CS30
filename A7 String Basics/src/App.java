@@ -1,5 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        String message1 = "I am very happy";
+        String target1 = "very ";
+
+        String message2 = "That was great - lol";
+        String target2 = "lol";
+
+        System.out.println(message1.substring(indexOf(v)));
     }
 }
