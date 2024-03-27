@@ -2,9 +2,9 @@
 
 // Student name: Levi Bautista
 
-// Date: (The date you completed the program)
+// Date: 3/27/2024
 
-// Program Description:
+// Program Description: input two ints and add them together, input two doubles and add them together
 
 
 import static java.lang.System.*;
