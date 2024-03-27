@@ -8,5 +8,6 @@ public class App {
 
         System.out.println(message1.replace(target1,""));
         System.out.println(message2.replace(target2,"laugh out loud"));
+        
     }
 }
