@@ -58,7 +58,6 @@ public class App
 
       System.out.println("Your two numbers equals " + (dbTwo + dbOne));
 
-
    }
 
 }
