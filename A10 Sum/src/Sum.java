@@ -1,7 +1,8 @@
 
 public class Sum {
 
-    public static int sum, setNum1, setNum2, a, b;
+    private static int setNum1, setNum2;
+    private static int sum;
 
     public static void setNums(int a, int b){
 
@@ -10,20 +11,18 @@ public class Sum {
 
     }
     
-    public static void dimSum(int setNum1, int setNum2){
+    public static void dimSum(){
         
-        int sum = a + b;
+        sum = setNum1 + setNum2;
+
 
     }
 
-    public static void print(int setNum1, int setNum2){
+    public static void print(){
 
-        System.out.println(a +" + " + b + " = " + sum);
+        System.out.println(sum);
 
     }
-
-
-
 
 
 }
