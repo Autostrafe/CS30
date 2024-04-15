@@ -15,11 +15,9 @@ public class Sum {
         
         sum = setNum1 + setNum2;
 
-
     }
 
     public static void print(){
-
         System.out.println(sum);
 
     }

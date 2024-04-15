@@ -1,17 +1,18 @@
 public class Average {
 
-    private static double setNum;
+    private static double setNum1, setNum2;
     private static double answer;
 
-    public static void setNum(double a){
+    public static void setNum(double a, double b){
 
-        setNum = a;
+        setNum1 = a;
+        setNum2 = b;
 
     }
     
     public static void calculate(){
         
-        answer = setNum/2;
+        answer = (setNum1 + setNum2)/2;
 
 
     }
