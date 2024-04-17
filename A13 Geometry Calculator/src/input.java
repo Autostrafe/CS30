@@ -61,7 +61,7 @@ public class input {
 
             ILikeLongNamesBecauseItsVeryCoolButThisIsAGeometryCalculator.iLikeLongNamesBecauseItsVeryCoolButThisIsACalculatorForAreaOfACircle(userChoiceCircle);
 
-        
+
         }
     }
 

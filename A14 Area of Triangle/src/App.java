@@ -1,10 +1,5 @@
-public class FCCFRunner {
-
+public class App {
     public static void main(String[] args) throws Exception {
-     
-        input.input();
-
+        Triangle.input();
     }
-
-
 }
