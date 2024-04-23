@@ -38,7 +38,9 @@ public class MilesPerHour{
     }
 
     public static void print(){
-        System.out.println( (int) Math.floor(distance) + " mile(s) in " + (int) Math.floor(hours) + " hour(s) and " + (int) Math.floor(minutes) + " minute(s) " + (int) Math.floor(speed) + " MPH");
+
+      System.out.println((int) Math.floor(distance) + " mile(s) in " + (int) Math.floor(hours) + " hour(s) and " + (int) Math.floor(minutes) + " minute(s) = " + (int) Math.floor(speed) + " MPH");
+      
     }
 
 }
