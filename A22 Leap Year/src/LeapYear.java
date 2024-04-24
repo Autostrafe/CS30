@@ -11,23 +11,15 @@ public class LeapYear{
 
         System.out.print("Enter a year :: ");
 
-        int inputNum = input.nextInt();
+        int inputYear = input.nextInt();
 
-        if (inputNum%400 == 0 ){
-            checkCent = true;
-            if (checkCent){
-                if (inputNum%4 == 0 ){
-                    System.out.println(inputNum + " is a leap year");
-                }
-                else {
-                    checkCent = false;
-                    System.out.println(inputNum + " is NOT a leap year");
-                }
-                
-            }
+        boolean checkLeap = ((inputYear % 4 == 0) && inputYear % 100 !=0) || (inputYear % 400 == 0);
 
+        if (checkLeap){
+            System.out.println(inputYear + " is a leap year");
         }
-
+        else{
+            System.out.println(inputYear + " is NOT a leap year");
+        }
     }
-
 }
