@@ -39,7 +39,6 @@ public class CoolNumbers{
     public static void printCoolNum(){
         System.out.println(coolNumCount + " cool numbers between 6 - " + userNum);
 
-        // System.out.println(countCoolNumbers(250) + " cool numbers between 6 - 250" + coolNumChoice);
     }
 
     public static void executeAll(){
