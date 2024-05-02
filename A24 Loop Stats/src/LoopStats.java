@@ -53,4 +53,11 @@ public class LoopStats{
 	{
 		return start + " " + stop;
 	}
+
+	public void execAll()
+	{
+		System.out.println("There are " + getEvenCount() + " even numbers");
+		System.out.println("There are " + getOddCount() + " odd numbers");
+		System.out.println("There is total is " + getTotal());
+	}
 }
