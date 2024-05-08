@@ -12,6 +12,6 @@ public class App {
 
         LoopStats.setNums(startNum, endNum);
         LoopStats.execAll();
-        LoopStats.toString();
+        System.out.println(LoopStats);
     }
 }
