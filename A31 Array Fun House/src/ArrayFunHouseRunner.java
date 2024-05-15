@@ -24,7 +24,7 @@ public class ArrayFunHouseRunner
 		System.out.println("# of 4s  =  " + App.getCount(two,4));
 		System.out.println("# of 9s  =  " + App.getCount(two,9));
 
-		System.out.println("The array after deletion of 9 :: " + Arrays.toString(App.removeVal(two,9)) );
+		System.out.println("The array after deletion of 9s :: " + Arrays.toString(App.removeVal(two,9)) );
 
 
 	}
