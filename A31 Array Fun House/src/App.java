@@ -2,9 +2,6 @@
 //www.apluscompsci.com
 //Name -
 
-import java.lang.System;
-import java.lang.Math;
-
 public class App
 {
 	//instance variables and constructors could be used, but are not really needed
@@ -25,11 +22,29 @@ public class App
 	//getCount() will return number of times val is present
 	public static int getCount(int[] numArray, int val)
 	{
-		return 0;
+		int count = 0;
+
+		for (int i = 0; i < numArray.length; i++){
+			if (numArray[i] == val){
+				count++;
+			}
+		}
+
+		return count;
 	}
 
 	public static int[] removeVal(int[] numArray, int val)
 	{
-		return null;
+		int[] newArr = new int[numArray.length - getCount(numArray, val)];
+		int j = val;
+
+		for (int i = 0, k = 0; i < numArray.length; i++){
+			if (numArray[i] != j){
+				newArr[k] = numArray[i];
+				k++;
+			}
+		}
+		
+		return newArr;
 	}
 }
